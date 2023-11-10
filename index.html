@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Your Portfolio</title>
+</head>
+<body>
+    <nav class="navi">
+    <header>
+        <h1>Amar Kanbarkar</h1>
+    </header>
+    <div class="sections">
+        <section class="about">
+            <a href="#about"><h2>About Me</h2></a>
+            <p>I am a Robotics Engineer.</p>
+        </section>
+        <section class="portfolio">
+            <a href="#portfolio"><h2>Portfolio</h2></a>
+            <!-- Add your portfolio items here -->
+        </section>
+        <section class="contact">
+            <a href="#contact"><h2>Contact Me</h2></a>
+            <!-- Add a contact form or contact information here -->
+        </section>
+    </div>
+    <div class="left-panel">
+        <div class="cube">
+            <div class="cube-inner">
+                <!-- Add cube faces here -->
+            </div>
+        </div>
+    </div>
+</nav>
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello, I'm Amar, a passionate and innovative robotics engineer. With a strong background in robotics, artificial intelligence, and automation, I'm dedicated to designing and building intelligent machines that can transform the way we interact with technology.</p>
+
+    <p>My journey in the world of robotics began during my academic years, where I had the opportunity to work on cutting-edge projects that involved autonomous navigation, machine learning, and computer vision. This hands-on experience ignited my fascination with the potential of robotics to solve real-world problems.</p>
+
+    <p>Throughout my career, I've been fortunate to collaborate on various projects, from developing autonomous drones for environmental monitoring to creating robotic arms for industrial automation. I thrive on challenges that require creativity and technical expertise.</p>
+
+    <p>My goal is to continue pushing the boundaries of robotics technology, contributing to advancements in healthcare, manufacturing, and other industries. I believe that the fusion of software and hardware can lead to remarkable solutions that have a positive impact on society.</p>
+
+    <p>When I'm not immersed in robotics, you can find me exploring the latest research in the field, tinkering with new hardware, or mentoring aspiring engineers. I'm always excited to connect with like-minded individuals who share a passion for robotics and innovation.</p>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <!-- Add your portfolio items here -->
+    <div class="portfolio-item">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>Description of project 1.</p>
+    </div>
+    <div class="portfolio-item">
+        <img src="project2.jpg" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>Description of project 2.</p>
+    </div>
+    <!-- Add more items as needed -->
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="contact.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+</body>
+</html>
