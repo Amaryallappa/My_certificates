@@ -70,7 +70,7 @@ header {
         transform: rotateY(360deg);
     }
 }
-#about, #portfolio, #contact {
+#about, #portfolio, #contact, #resume {
     flex: 10;
     padding-left: 30%;
     background: #fff;
